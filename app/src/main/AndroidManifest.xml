@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.com.tm.idecomm">
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="i-Decomm"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Start"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Total_sites"
+            android:label="TOTAL PSTN SITES"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Completed_Sites"
+            android:label="COMPLETED SITES"/>
+        <activity android:name=".DismantlingProgress"
+        android:label="DISMANTLING IN-PROGRESS"/>
+        <activity android:name=".ListDismantlingProgress"
+            android:label="LIST DISMANTLING IN-PROGRESS"/>
+        <activity android:name=".ListCompleteSites"
+            android:label="LIST COMPLETE SITES"/>
+        <activity android:name=".ListRemaining"
+            android:label="LIST REMAINING SITES"/>
+        <activity android:name=".PendingSites"
+            android:label="REMAINING SITES"/>
+        <activity android:name=".ListAllComplete"
+            android:label="LIST ALL COMPLETE SITES"/>
+        <activity android:name=".ListTotalSitesJHR"
+            android:label="LIST TOTAL SITES"/>
+        <activity android:name=".ProfileVendor"
+            android:label="LIST YTD PAYMENT RECEIVED (RM)"/>
+        <activity android:name=".PaymentLock"
+            android:label="LOCK-IN SALES"/>
+        <activity android:name=".DetailVendor"
+            android:label="LIST YTD TOTAL PAYMENT RECEIVED"/>
+        <activity android:name=".Ipmsansite" />
+        <activity android:name=".DetailLockin"
+            android:label="LIST LOCK-IN SALES"/>
+        <activity android:name=".ListLockin"
+            android:label="LIST TOTAL LOCK-IN SALES"/>
+        <activity android:name=".PaymentReceivedLock"
+            android:label="LIST TOTAL PAYMENT RECEIVED"/>
+        <activity android:name=".ListOutstanding"
+            android:label="LIST TOTAL OUTSTANDING"/>
+        <activity android:name=".ListAllOutstading"
+            android:label="LIST ALL OUTSTANDING">
+
+        </activity>
+    </application>
+
+</manifest>

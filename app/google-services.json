@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "371827815544",
+    "firebase_url": "https://idecomm-97.firebaseio.com",
+    "project_id": "idecomm-97",
+    "storage_bucket": "idecomm-97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371827815544:android:7d01f201066e047c",
+        "android_client_info": {
+          "package_name": "my.com.tm.idecomm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371827815544-3mt99cml46dgo8re6uu6s91ivbavrpnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBADv59hAuHRnYbO0dnoEWKIPBUVdKqbW8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

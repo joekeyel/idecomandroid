@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.com.tm.idecomm.Total_sites">
+
+
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        >
+
+        <TableRow
+
+            android:gravity="center">
+
+            <TextView
+
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/satu"
+                android:gravity="start"
+                android:layout_gravity="start"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/dua"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tiga"
+                android:gravity="start"
+                android:layout_gravity="start"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/empat"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lima"
+                android:gravity="start"
+                android:layout_gravity="start"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+</RelativeLayout>
