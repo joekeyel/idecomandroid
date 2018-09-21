@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
 //        final ActionBar ab = getSupportActionBar();
 //        if (ab != null) {
 //            ab.setLogo(R.mipmap.tm);
@@ -84,6 +86,13 @@ public class MainActivity extends AppCompatActivity
                 DrawerLayout drawers = (DrawerLayout) findViewById(R.id.drawer_layout);
                 startActivity(new Intent(MainActivity.this, Ipmsansite.class));
                 drawers.closeDrawers();
+//                fragment = new ScheduleFragment();
+                break;
+
+            case R.id.my_order:
+                DrawerLayout drawers2 = (DrawerLayout) findViewById(R.id.drawer_layout);
+                startActivity(new Intent(MainActivity.this, mylistorder.class));
+                drawers2.closeDrawers();
 //                fragment = new ScheduleFragment();
                 break;
 

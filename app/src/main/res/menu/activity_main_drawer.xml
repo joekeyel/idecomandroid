@@ -18,6 +18,10 @@
             android:title="COPPER CABLES" />
 
         <item
+            android:id="@+id/my_order"
+            android:title="MY ORDER" />
+
+        <item
             android:id="@+id/nav_logout"
             android:title="LOGOUT" />
     </group>

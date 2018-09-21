@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "371827815544",
-    "firebase_url": "https://idecomm-97.firebaseio.com",
-    "project_id": "idecomm-97",
-    "storage_bucket": "idecomm-97.appspot.com"
+    "project_number": "1042737996667",
+    "firebase_url": "https://idecom-9b75c.firebaseio.com",
+    "project_id": "idecom-9b75c",
+    "storage_bucket": "idecom-9b75c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:371827815544:android:7d01f201066e047c",
+        "mobilesdk_app_id": "1:1042737996667:android:7d01f201066e047c",
         "android_client_info": {
           "package_name": "my.com.tm.idecomm"
         }
       },
       "oauth_client": [
         {
-          "client_id": "371827815544-3mt99cml46dgo8re6uu6s91ivbavrpnt.apps.googleusercontent.com",
+          "client_id": "1042737996667-km9rilsvf8kqln0guonrm47u3n0lk1qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.com.tm.idecomm",
+            "certificate_hash": "164a2a3eea6b21405938f503fd89e9f9e13b1364"
+          }
+        },
+        {
+          "client_id": "1042737996667-g32300kaqs97e8if2aed6erh2m1lq81u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBADv59hAuHRnYbO0dnoEWKIPBUVdKqbW8"
+          "current_key": "AIzaSyChKY_6Wa8jIZ7musYPiQsFpXSC2NIq3hw"
         }
       ],
       "services": {
@@ -29,8 +37,20 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042737996667-g32300kaqs97e8if2aed6erh2m1lq81u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1042737996667-k99qk8ep50lo2ngd5i52vbt167tifu14.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "my.com.tm.idecomm"
+              }
+            }
+          ]
         },
         "ads_service": {
           "status": 2
